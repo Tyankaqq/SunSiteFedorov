@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2? Family= JetBrains+Mono:wght@700 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:430px) {
+    header{
+        width: 430px;
+    }
+    .header_container img {
+        width: 70px ;
+    }
+    .header_container div{
+        width: 430px !important;
+        justify-content: space-evenly !important;
+    }
+    .header_container a{
+        font-size: 12px !important;
+    }
+    main {
+        height: 1000px;
+    }
+    .section_about_us img{
+        width: 150px;
+        height: 150px;
+    }
+    .section_about_us p {
+        font-size: 12px !important;
+    }
+    .section_about_us button{
+        font-size: 12px !important;
+        width: 60% !important;
+        height: 20px !important;
+    }
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #fab37f;
+}
+.header_container{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_container div{
+    width: 690px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_container div a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-family:'JetBrains Mono', monospace;
+}
+main{
+    width: 100%;
+    background-color: black;
+}
+.section_EclipSun div h1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 64px;
+}
+span{
+    color: #fab37f;
+}
+.section_about_us p{
+    color: white;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 24px;
+    text-align: center;
+}
+.void{
+    width: 20%;
+}
+.line{
+
+    margin: 0 auto;
+    border: 2px solid #fab37f;
+}
+.section_about_us{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.section_about_us img{
+    width: 243px;
+}
+
+/* .section_about_us{
+    width: 80%;
+ 
+    display: flex;
+    text-align: center;
+}
+.section-container{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    border-bottom: solid 4px #fab37f;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section_about_us p{
+    width: 310px;
+    
+
+}
+.section-container a{
+    width: 200px;
+    height: 50px;
+    background-color: #fab37f;
+    color: black;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: 700;
+}*/ 
+
+.img1_container{
+    width: 50%;
+}
+/* .section1_about_us p{
+    color: white;
+    width: 100px;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 24px;
+    text-align: center;
+}
+.section1_about_us{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.section1-container{
+    
+    width: 80% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1_about_us p{
+    width: 310px;
+    
+
+}*/
+.section_about_us button{
+    width: 20%;
+    height: 50px;
+    background-color: #fab37f;
+    color: black;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+} 
+
+
+.img2_container{
+    width: 20%;
+}

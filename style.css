@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2? Family= JetBrains+Mono:wght@700 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:430px) {
+    header{
+        width: 430px;
+    }
+    .header_container img {
+        width: 70px ;
+    }
+    .header_container div{
+        width: 430px !important;
+        justify-content: space-evenly !important;
+    }
+    .header_container a{
+        font-size: 12px !important;
+    }
+    .card-photo-item {
+        width: 150px !important;
+        height: 130px !important;
+    }
+    .Eclip_photo_container{
+        height: 400px !important;
+    }
+    .section_about_us{
+        width: 100% !important;
+    }
+    .section_about_us img{
+        width: 100px;
+        height: 100px;
+        visibility: hidden;
+    }
+    .section_about_us h2{
+        font-size: 20px;
+    }
+    .section_about_us p{
+        font-size: 16px !important;
+        width: auto !important;
+    }
+    .text_raw {
+        height: 0 !important;
+        font-size: 12px !important;
+        width: fit-content !important;
+    }
+    .Reviews_container div img {
+        width: 100px !important;
+    }
+    .Reviews {
+        height: 500px !important;
+    }
+    .icon{
+        width: 120px !important;
+        height: 120px !important;
+    }
+    main{
+        height: 1700px !important;
+    }
+    .icon-container p{
+        font-size: 24px !important;
+    }
+    .adress{
+        font-size: 16px !important;
+    }
+}
+    
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #fab37f;
+}
+main{
+    width: 100%;
+    height: 1940px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.header_container{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_container div{
+    width: 690px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_container div a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-family:'JetBrains Mono', monospace;
+}
+.section_EclipSun{
+    width: 100%;
+    height: 810px;
+    background-color: black;
+}
+.section_EclipSun div h1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 64px;
+}
+span{
+    color: #fab37f;
+}
+.Eclip_photo_container{
+    width: 75%;
+    height: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Eclip_photo_container img{
+    width: 400px;
+    height: 230px;
+}
+.section_about_us{
+    width: 100%;
+    height: 419px;
+    border-top: 4px #fab37f solid;
+    border-bottom: solid 4px #fab37f;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    font-family:'JetBrains Mono', monospace;
+}
+.section_about_us p{
+    color: white;
+    width: 500px;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 24px;
+    text-align: center;
+}
+.Reviews{
+    width:100%;
+    height: 711px
+}
+.Reviews div h3{
+    width: 100%;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 64px;
+}
+.Reviews_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text_raw{
+    text-align: center;
+    color: white;
+    width: 150px;
+    height: 300px;
+    font-family:'JetBrains Mono', monospace;
+}
+.Name{
+    line-height: 30px;
+    font-family:'JetBrains Mono', monospace;
+    color: #fab37f;
+}
+.Reviews_container div{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    background-color: #fab37f;
+
+}
+.footer-container{
+display: flex;
+
+
+}
+.social-link-container{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-link{
+    width: 50px;
+    height: 50px;
+} 
+.icon{
+    width: 150px;
+    height: 150px;
+}
+.icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon-container p{
+    font-size: 64px;
+    font-family:'JetBrains Mono', monospace;
+    font-weight: 700;
+}
+.adress{
+    display: flex;
+    align-items: center;
+}
+.adress p{
+    font-size: 24px;
+    font-weight: 700;
+    font-family:'JetBrains Mono', monospace;
+}
+.card-text {
+    position: relative;
+    color: black;
+    text-align: center;
+    background-color: #fab37f;
+    top: -21px;
+    height: 30px;
+    border-radius: 0% 0% 50% 50%;
+    font-size: 24px;
+    font-weight: 700;
+    font-family:'JetBrains Mono', monospace;
+}
+.card-photo-item {
+    z-index: 3;
+}
